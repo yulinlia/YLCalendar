@@ -1,0 +1,6 @@
+framework module YLCalendar {
+  umbrella header "YLCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}

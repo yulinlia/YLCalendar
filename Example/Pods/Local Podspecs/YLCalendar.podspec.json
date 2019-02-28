@@ -1,0 +1,22 @@
+{
+  "name": "YLCalendar",
+  "version": "0.1.0",
+  "summary": "A short description of YLCalendar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yulinlia@usc.edu/YLCalendar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yulinlia@usc.edu": "yulinlia@usc.edu"
+  },
+  "source": {
+    "git": "https://github.com/yulinlia@usc.edu/YLCalendar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YLCalendar/Classes/**/*"
+}
