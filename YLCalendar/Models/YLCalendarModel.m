@@ -2,7 +2,8 @@
 //  YLCalendarModel.m
 //  YLCalendar
 //
-//  Created by 梁煜麟 on 2/28/19.
+//  Created by 梁煜麟 on 2/15/19.
+//  Copyright © 2019 梁煜麟. All rights reserved.
 //
 
 #import "YLCalendarModel.h"
@@ -45,4 +46,3 @@
 }
 
 @end
-

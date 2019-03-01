@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		009A8004EA4FAAFC8FB5FDEF46541ED6 /* YLCalendarCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB20027FEF50D5571B51104875F1C2C /* YLCalendarCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F9625B470E6990AE1A0917D6552C25C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		315D5C8DFCFC24AB88FD0DF7EEF794A6 /* YLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 85BFBB153564A5769F9668413DE321D5 /* YLCache.m */; };
-		439180A25F7704B709D76AB6B7064861 /* UIImage+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 508A4FFC894201BF3C3640CEC5017DA7 /* UIImage+YLUtil.m */; };
-		4DBED2A09E60FBFDA806C5255E907399 /* YLCalendarModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 875F8F478A841039FD434F99AD562971 /* YLCalendarModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F761251906D2F25A2C2EB5A77CE47F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		5629D979D71F31994C56300ABD14A0FA /* YLCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AD046585882F4D15C541DC03674D59 /* YLCalendar-dummy.m */; };
+		624144242229C0AA009AEE88 /* NSCalendar+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 6241441E2229C0AA009AEE88 /* NSCalendar+Util.m */; };
+		624144252229C0AA009AEE88 /* NSCalendar+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 6241441F2229C0AA009AEE88 /* NSCalendar+Util.h */; };
+		624144262229C0AA009AEE88 /* UIImage+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 624144202229C0AA009AEE88 /* UIImage+YLUtil.m */; };
+		624144272229C0AA009AEE88 /* UIImage+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 624144212229C0AA009AEE88 /* UIImage+YLUtil.h */; };
+		624144282229C0AA009AEE88 /* YLCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 624144222229C0AA009AEE88 /* YLCache.h */; };
+		624144292229C0AA009AEE88 /* YLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 624144232229C0AA009AEE88 /* YLCache.m */; };
+		624144302229C0B6009AEE88 /* YLCalendarCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6241442A2229C0B6009AEE88 /* YLCalendarCollectionViewCell.h */; };
+		624144312229C0B6009AEE88 /* YLCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6241442B2229C0B6009AEE88 /* YLCalendarHeaderView.h */; };
+		624144322229C0B6009AEE88 /* YLCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6241442C2229C0B6009AEE88 /* YLCalendarView.h */; };
+		624144332229C0B6009AEE88 /* YLCalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6241442D2229C0B6009AEE88 /* YLCalendarCollectionViewCell.m */; };
+		624144342229C0B6009AEE88 /* YLCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6241442E2229C0B6009AEE88 /* YLCalendarView.m */; };
+		624144352229C0B6009AEE88 /* YLCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6241442F2229C0B6009AEE88 /* YLCalendarHeaderView.m */; };
+		624144382229C0D5009AEE88 /* YLCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 624144362229C0D4009AEE88 /* YLCalendarModel.m */; };
+		624144392229C0D5009AEE88 /* YLCalendarModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 624144372229C0D4009AEE88 /* YLCalendarModel.h */; };
 		68EF1DFD4419801BDF69B92847ADE781 /* YLCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27DB4E11AC578B9C3266F93478684BFA /* YLCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6CDDC6C19D692544F108286FEEB251F3 /* NSCalendar+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DD38420EDB8574B6A357E1D56E9F5B /* NSCalendar+Util.m */; };
-		78205C1D46E5488C09DD2F83E02B1B11 /* YLCalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5201172C42B9E6B5A26E8AF00CFBA743 /* YLCalendarCollectionViewCell.m */; };
 		7D04EB53D82D188CB18799AF837D7B9C /* Pods-YLCalendar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CA831DF0D85F7914B941737C946C12E /* Pods-YLCalendar_Example-dummy.m */; };
-		A141BDDDFF4F5A4FC53CCF4D2C46CA31 /* YLCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C12B817814A3376D414F51A0FBF4769 /* YLCalendarView.m */; };
 		A1C793ED01D93B6DAF9104E09B341667 /* Pods-YLCalendar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B4EFC1EA29781D4FDBA0E59EA17BBB /* Pods-YLCalendar_Tests-dummy.m */; };
 		B9519BA7D9ABFB836B26133065DF2CE7 /* Pods-YLCalendar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3ABCCC3F67D7D3F2AAC25C2F48AC396 /* Pods-YLCalendar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE31C16B573707D9EFAE85938DF7DE25 /* YLCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A8EBB921A417D63273260DA82812066 /* YLCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5D8A54319C2645A5DDA4BCF29B77CB9 /* YLCalendarHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = A0B07BC9B236BD054F58EFC10FA450E1 /* YLCalendarHeaderView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8170BD76C1945E8E5C65A28A60A29B6 /* YLCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 916D6A37E4B5BC632102BC125D712BAB /* YLCalendarModel.m */; };
-		DB4D0E455A35CCF104B9B777CF0BCE64 /* UIImage+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D07887CE9E0E58EF98114F89D127721E /* UIImage+YLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DFF268E269F27004800ED0AD41EA4D25 /* Pods-YLCalendar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB0DF4C8299553F632884988354A41A5 /* Pods-YLCalendar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1ED6C0024B1C58D7BE4E9CD49D9AF6F /* NSCalendar+Util.h in Headers */ = {isa = PBXBuildFile; fileRef = 17AD532C2589871447FCE97613F1830A /* NSCalendar+Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAA3F8205F615FA793AFCD9F97419669 /* YLCalendarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E9A2C584DAEF77289D4E05BD74AB9A /* YLCalendarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3A120C916DCC6F90A36E0ADD21441E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		F8822E5E2EE8960BE2D7886281DF1993 /* YLCalendarHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F34C29CBF99C6B7364904ACA7A17E8 /* YLCalendarHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,53 +51,53 @@
 
 /* Begin PBXFileReference section */
 		0AEBF0398A2151B96AF1CC3710D5ED9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		0C12B817814A3376D414F51A0FBF4769 /* YLCalendarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YLCalendarView.m; sourceTree = "<group>"; };
 		0CF0759DE01A0A66F7E21A4EB8FD7C1D /* Pods-YLCalendar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLCalendar_Example-resources.sh"; sourceTree = "<group>"; };
 		0E88B7865202D55284C06C7013D77EAB /* Pods-YLCalendar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLCalendar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		13E649CE738C08B5ABF80519C1EBC7C4 /* YLCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YLCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17AD532C2589871447FCE97613F1830A /* NSCalendar+Util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Util.h"; sourceTree = "<group>"; };
 		19389D5EA0BFD101CA84BEBB26D947ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		245BBBB34E6A6D395ED60E08F413E5D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24D18773B645675FEC3ABAB9A804DA4E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		27DB4E11AC578B9C3266F93478684BFA /* YLCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLCalendar-umbrella.h"; sourceTree = "<group>"; };
 		28ED4D62B5B71A61635DB5DC37840361 /* Pods-YLCalendar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLCalendar_Tests-resources.sh"; sourceTree = "<group>"; };
-		32F34C29CBF99C6B7364904ACA7A17E8 /* YLCalendarHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YLCalendarHeaderView.m; sourceTree = "<group>"; };
-		35E9A2C584DAEF77289D4E05BD74AB9A /* YLCalendarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YLCalendarView.h; sourceTree = "<group>"; };
 		3A2CF0547B0431FAFE2788577C5FBA6A /* Pods-YLCalendar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLCalendar_Example-frameworks.sh"; sourceTree = "<group>"; };
 		4063F82EE718C9637667110B3EBFE9D3 /* Pods_YLCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4101C9936FC52B5B8282343A0E98D7B9 /* Pods-YLCalendar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLCalendar_Tests.modulemap"; sourceTree = "<group>"; };
 		42437DAADED1961B3C936349D078E4C4 /* YLCalendar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = YLCalendar.podspec; sourceTree = "<group>"; };
-		45DD38420EDB8574B6A357E1D56E9F5B /* NSCalendar+Util.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Util.m"; sourceTree = "<group>"; };
-		508A4FFC894201BF3C3640CEC5017DA7 /* UIImage+YLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YLUtil.m"; sourceTree = "<group>"; };
-		5201172C42B9E6B5A26E8AF00CFBA743 /* YLCalendarCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YLCalendarCollectionViewCell.m; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		602E928991C6D02D2EDA58EF85917082 /* Pods-YLCalendar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLCalendar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6241441E2229C0AA009AEE88 /* NSCalendar+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+Util.m"; sourceTree = "<group>"; };
+		6241441F2229C0AA009AEE88 /* NSCalendar+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+Util.h"; sourceTree = "<group>"; };
+		624144202229C0AA009AEE88 /* UIImage+YLUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YLUtil.m"; sourceTree = "<group>"; };
+		624144212229C0AA009AEE88 /* UIImage+YLUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YLUtil.h"; sourceTree = "<group>"; };
+		624144222229C0AA009AEE88 /* YLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCache.h; sourceTree = "<group>"; };
+		624144232229C0AA009AEE88 /* YLCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCache.m; sourceTree = "<group>"; };
+		6241442A2229C0B6009AEE88 /* YLCalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		6241442B2229C0B6009AEE88 /* YLCalendarHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCalendarHeaderView.h; sourceTree = "<group>"; };
+		6241442C2229C0B6009AEE88 /* YLCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCalendarView.h; sourceTree = "<group>"; };
+		6241442D2229C0B6009AEE88 /* YLCalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		6241442E2229C0B6009AEE88 /* YLCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCalendarView.m; sourceTree = "<group>"; };
+		6241442F2229C0B6009AEE88 /* YLCalendarHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCalendarHeaderView.m; sourceTree = "<group>"; };
+		624144362229C0D4009AEE88 /* YLCalendarModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCalendarModel.m; sourceTree = "<group>"; };
+		624144372229C0D4009AEE88 /* YLCalendarModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCalendarModel.h; sourceTree = "<group>"; };
 		67CFA7E2A1D1BCA50963F07DB9DCF7B8 /* Pods-YLCalendar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLCalendar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		702115589B20A16D464E1C17B38B221D /* Pods-YLCalendar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLCalendar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		71AD046585882F4D15C541DC03674D59 /* YLCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLCalendar-dummy.m"; sourceTree = "<group>"; };
 		762475C790C88D15A191B52488D2A3F6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8381ECBF2736E21DDDC06381212CCE06 /* Pods-YLCalendar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLCalendar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		85BFBB153564A5769F9668413DE321D5 /* YLCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YLCache.m; sourceTree = "<group>"; };
-		875F8F478A841039FD434F99AD562971 /* YLCalendarModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YLCalendarModel.h; sourceTree = "<group>"; };
 		8CA831DF0D85F7914B941737C946C12E /* Pods-YLCalendar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLCalendar_Example-dummy.m"; sourceTree = "<group>"; };
 		8D984DFCDA4E55971E9C46574BE1E733 /* Pods_YLCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		916D6A37E4B5BC632102BC125D712BAB /* YLCalendarModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YLCalendarModel.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A8EBB921A417D63273260DA82812066 /* YLCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YLCache.h; sourceTree = "<group>"; };
-		A0B07BC9B236BD054F58EFC10FA450E1 /* YLCalendarHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YLCalendarHeaderView.h; sourceTree = "<group>"; };
 		A0FA0BEFF7626C06D7EE5C12C07B97B5 /* Pods-YLCalendar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLCalendar_Example.modulemap"; sourceTree = "<group>"; };
 		A1B4EFC1EA29781D4FDBA0E59EA17BBB /* Pods-YLCalendar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLCalendar_Tests-dummy.m"; sourceTree = "<group>"; };
 		A282AE633F892D3DD079696426821463 /* Pods-YLCalendar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLCalendar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C6DED8FA27265940DC2CB28F279A4862 /* Pods-YLCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D02E3AC7E19724C74BF5E48D7591FAE5 /* Pods-YLCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D07887CE9E0E58EF98114F89D127721E /* UIImage+YLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+YLUtil.h"; sourceTree = "<group>"; };
 		D349CA0D736783EE9559F6E923B9A1A0 /* YLCalendar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLCalendar-prefix.pch"; sourceTree = "<group>"; };
 		D430B3840C7E76E0DD6322862F2524DA /* YLCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLCalendar.xcconfig; sourceTree = "<group>"; };
 		DB0DF4C8299553F632884988354A41A5 /* Pods-YLCalendar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLCalendar_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E3ABCCC3F67D7D3F2AAC25C2F48AC396 /* Pods-YLCalendar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLCalendar_Example-umbrella.h"; sourceTree = "<group>"; };
 		F0CC1955CF945B779241C7614B8886F8 /* Pods-YLCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F1AD7B3B1725E3294C64A347036A686E /* YLCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLCalendar.modulemap; sourceTree = "<group>"; };
-		FDB20027FEF50D5571B51104875F1C2C /* YLCalendarCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YLCalendarCollectionViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,28 +152,14 @@
 			path = "Example/Pods/Target Support Files/YLCalendar";
 			sourceTree = "<group>";
 		};
-		21EB3445C8AE7FCCBB73411A57480B68 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				FDB20027FEF50D5571B51104875F1C2C /* YLCalendarCollectionViewCell.h */,
-				5201172C42B9E6B5A26E8AF00CFBA743 /* YLCalendarCollectionViewCell.m */,
-				A0B07BC9B236BD054F58EFC10FA450E1 /* YLCalendarHeaderView.h */,
-				32F34C29CBF99C6B7364904ACA7A17E8 /* YLCalendarHeaderView.m */,
-				35E9A2C584DAEF77289D4E05BD74AB9A /* YLCalendarView.h */,
-				0C12B817814A3376D414F51A0FBF4769 /* YLCalendarView.m */,
-			);
-			name = Views;
-			path = YLCalendar/Classes/Views;
-			sourceTree = "<group>";
-		};
 		2939CBFD4B0366A5EDE2829889F15A48 /* YLCalendar */ = {
 			isa = PBXGroup;
 			children = (
-				4437394B80513A9B805D11E66ED20008 /* Models */,
+				624144052229C057009AEE88 /* Views */,
+				624143F82229C050009AEE88 /* Utils */,
+				624143F32229C047009AEE88 /* Models */,
 				0CF601FFE6FE499E2089A4B4451976C6 /* Pod */,
 				198C6319D50DD5E628245F00649333A6 /* Support Files */,
-				6F6D33849D70672CF1690C32E1EAECED /* Utils */,
-				21EB3445C8AE7FCCBB73411A57480B68 /* Views */,
 			);
 			name = YLCalendar;
 			path = ../..;
@@ -187,22 +173,50 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		4437394B80513A9B805D11E66ED20008 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				875F8F478A841039FD434F99AD562971 /* YLCalendarModel.h */,
-				916D6A37E4B5BC632102BC125D712BAB /* YLCalendarModel.m */,
-			);
-			name = Models;
-			path = YLCalendar/Classes/Models;
-			sourceTree = "<group>";
-		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		624143F32229C047009AEE88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				624144372229C0D4009AEE88 /* YLCalendarModel.h */,
+				624144362229C0D4009AEE88 /* YLCalendarModel.m */,
+			);
+			name = Models;
+			path = YLCalendar/Models;
+			sourceTree = "<group>";
+		};
+		624143F82229C050009AEE88 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6241441F2229C0AA009AEE88 /* NSCalendar+Util.h */,
+				6241441E2229C0AA009AEE88 /* NSCalendar+Util.m */,
+				624144212229C0AA009AEE88 /* UIImage+YLUtil.h */,
+				624144202229C0AA009AEE88 /* UIImage+YLUtil.m */,
+				624144222229C0AA009AEE88 /* YLCache.h */,
+				624144232229C0AA009AEE88 /* YLCache.m */,
+			);
+			name = Utils;
+			path = YLCalendar/Utils;
+			sourceTree = "<group>";
+		};
+		624144052229C057009AEE88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6241442A2229C0B6009AEE88 /* YLCalendarCollectionViewCell.h */,
+				6241442D2229C0B6009AEE88 /* YLCalendarCollectionViewCell.m */,
+				6241442B2229C0B6009AEE88 /* YLCalendarHeaderView.h */,
+				6241442F2229C0B6009AEE88 /* YLCalendarHeaderView.m */,
+				6241442C2229C0B6009AEE88 /* YLCalendarView.h */,
+				6241442E2229C0B6009AEE88 /* YLCalendarView.m */,
+			);
+			name = Views;
+			path = YLCalendar/Views;
 			sourceTree = "<group>";
 		};
 		66712CADCF558AC799A24BA905A1B581 /* Targets Support Files */ = {
@@ -212,20 +226,6 @@
 				BEFCE8F8EB4ED008A3347D750FA248D5 /* Pods-YLCalendar_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		6F6D33849D70672CF1690C32E1EAECED /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				17AD532C2589871447FCE97613F1830A /* NSCalendar+Util.h */,
-				45DD38420EDB8574B6A357E1D56E9F5B /* NSCalendar+Util.m */,
-				D07887CE9E0E58EF98114F89D127721E /* UIImage+YLUtil.h */,
-				508A4FFC894201BF3C3640CEC5017DA7 /* UIImage+YLUtil.m */,
-				9A8EBB921A417D63273260DA82812066 /* YLCache.h */,
-				85BFBB153564A5769F9668413DE321D5 /* YLCache.m */,
-			);
-			name = Utils;
-			path = YLCalendar/Classes/Utils;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -300,14 +300,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1ED6C0024B1C58D7BE4E9CD49D9AF6F /* NSCalendar+Util.h in Headers */,
-				DB4D0E455A35CCF104B9B777CF0BCE64 /* UIImage+YLUtil.h in Headers */,
-				CE31C16B573707D9EFAE85938DF7DE25 /* YLCache.h in Headers */,
+				624144282229C0AA009AEE88 /* YLCache.h in Headers */,
+				624144322229C0B6009AEE88 /* YLCalendarView.h in Headers */,
+				624144272229C0AA009AEE88 /* UIImage+YLUtil.h in Headers */,
+				624144302229C0B6009AEE88 /* YLCalendarCollectionViewCell.h in Headers */,
 				68EF1DFD4419801BDF69B92847ADE781 /* YLCalendar-umbrella.h in Headers */,
-				009A8004EA4FAAFC8FB5FDEF46541ED6 /* YLCalendarCollectionViewCell.h in Headers */,
-				D5D8A54319C2645A5DDA4BCF29B77CB9 /* YLCalendarHeaderView.h in Headers */,
-				4DBED2A09E60FBFDA806C5255E907399 /* YLCalendarModel.h in Headers */,
-				EAA3F8205F615FA793AFCD9F97419669 /* YLCalendarView.h in Headers */,
+				624144252229C0AA009AEE88 /* NSCalendar+Util.h in Headers */,
+				624144312229C0B6009AEE88 /* YLCalendarHeaderView.h in Headers */,
+				624144392229C0D5009AEE88 /* YLCalendarModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,14 +424,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CDDC6C19D692544F108286FEEB251F3 /* NSCalendar+Util.m in Sources */,
-				439180A25F7704B709D76AB6B7064861 /* UIImage+YLUtil.m in Sources */,
-				315D5C8DFCFC24AB88FD0DF7EEF794A6 /* YLCache.m in Sources */,
+				624144242229C0AA009AEE88 /* NSCalendar+Util.m in Sources */,
+				624144292229C0AA009AEE88 /* YLCache.m in Sources */,
+				624144352229C0B6009AEE88 /* YLCalendarHeaderView.m in Sources */,
+				624144332229C0B6009AEE88 /* YLCalendarCollectionViewCell.m in Sources */,
+				624144382229C0D5009AEE88 /* YLCalendarModel.m in Sources */,
+				624144342229C0B6009AEE88 /* YLCalendarView.m in Sources */,
+				624144262229C0AA009AEE88 /* UIImage+YLUtil.m in Sources */,
 				5629D979D71F31994C56300ABD14A0FA /* YLCalendar-dummy.m in Sources */,
-				78205C1D46E5488C09DD2F83E02B1B11 /* YLCalendarCollectionViewCell.m in Sources */,
-				F8822E5E2EE8960BE2D7886281DF1993 /* YLCalendarHeaderView.m in Sources */,
-				D8170BD76C1945E8E5C65A28A60A29B6 /* YLCalendarModel.m in Sources */,
-				A141BDDDFF4F5A4FC53CCF4D2C46CA31 /* YLCalendarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
