@@ -30,7 +30,7 @@ Provide an infinite scrollable iOS calendar component
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YLCalendar/Classes/**/*'
+  s.source_files = 'YLCalendar/*'
   
   # s.resource_bundles = {
   #   'YLCalendar' => ['YLCalendar/Assets/*.png']
