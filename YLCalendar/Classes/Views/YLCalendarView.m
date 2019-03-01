@@ -298,8 +298,8 @@
     CGRect dateItemRect = [self frameForItemAtIndexPath:todayIndexPath];
     CGRect monthSectionHeaderRect = [self frameForHeaderForSection:todayIndexPath.section];
     
-    CGFloat delta = CGRectGetMaxY(dateItemRect) - CGRectGetMinY(monthSectionHeaderRect);
-    CGFloat actualViewHeight = CGRectGetHeight(self.collectionView.frame) - self.collectionView.contentInset.top - self.collectionView.contentInset.bottom;
+//    CGFloat delta = CGRectGetMaxY(dateItemRect) - CGRectGetMinY(monthSectionHeaderRect);
+//    CGFloat actualViewHeight = CGRectGetHeight(self.collectionView.frame) - self.collectionView.contentInset.top - self.collectionView.contentInset.bottom;
     
     CGRect headerRect = [self frameForHeaderForSection:todayIndexPath.section];
     CGPoint topOfHeader = CGPointMake(0, headerRect.origin.y - _collectionView.contentInset.top);
