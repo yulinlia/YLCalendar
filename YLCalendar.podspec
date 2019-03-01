@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YLCalendar'
-  s.version          = '0.0.2YL'
+  s.version          = '0.0.2'
   s.summary          = 'An infinite scrollable iOS calendar component'
 
 # This description is used to generate tags and improve search results.
