@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 Provide an infinite scrollable iOS calendar component
                        DESC
 
-  s.homepage         = 'https://github.com/yulinlia@usc.edu/YLCalendar'
+  s.homepage         = 'https://github.com/yulinlia/YLCalendar.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yulinlia@usc.edu' => 'yulinlia@usc.edu' }
