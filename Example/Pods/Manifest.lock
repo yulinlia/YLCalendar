@@ -1,5 +1,5 @@
 PODS:
-  - YLCalendar (0.1.0)
+  - YLCalendar (0.0.2)
 
 DEPENDENCIES:
   - YLCalendar (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YLCalendar: fb19b4560a9327900b1122b7a41a5a90c995220a
+  YLCalendar: 8a933a0095c624f1d7a7ae2ef59b9870f76bc9fd
 
 PODFILE CHECKSUM: 21418cbd9cc2a401a9acc8edd22e4d229f235936
 

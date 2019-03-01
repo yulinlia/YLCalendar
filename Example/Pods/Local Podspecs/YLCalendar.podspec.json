@@ -1,8 +1,8 @@
 {
   "name": "YLCalendar",
-  "version": "0.1.0",
-  "summary": "A short description of YLCalendar.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.2",
+  "summary": "An infinite scrollable iOS calendar component",
+  "description": "An infinite scrollable iOS calendar component",
   "homepage": "https://github.com/yulinlia@usc.edu/YLCalendar",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/yulinlia@usc.edu/YLCalendar.git",
-    "tag": "0.1.0"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"

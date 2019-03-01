@@ -7,23 +7,21 @@
 //
 
 #import "YLViewController.h"
+#import <YLCalendar/YLCalendarView.h>
 
 @interface YLViewController ()
+
+@property(nonatomic, strong) YLCalendarView *calendarView;
 
 @end
 
 @implementation YLViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.calendarView = [[YLCalendarView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:self.calendarView];
 }
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end
+

@@ -60,11 +60,11 @@
 		6B691D67BA1BAF05AD0F702C /* Pods-YLCalendar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLCalendar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLCalendar_Example/Pods-YLCalendar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7ECF42A0442891B736C48F58 /* Pods-YLCalendar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLCalendar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLCalendar_Tests/Pods-YLCalendar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8215F07F1C49F782FBC4EBA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8215F07F1C49F782FBC4EBA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A5246877E1248754950054A /* Pods_YLCalendar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLCalendar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B074ECF68A653AD0BE816300 /* YLCalendar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YLCalendar.podspec; path = ../YLCalendar.podspec; sourceTree = "<group>"; };
-		B67BAE35871F0275211B947B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B074ECF68A653AD0BE816300 /* YLCalendar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YLCalendar.podspec; path = ../YLCalendar.podspec; sourceTree = "<group>"; };
+		B67BAE35871F0275211B947B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CB103EDF16C30AB809D543BF /* Pods_YLCalendar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YLCalendar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3ECE9A76C2F3FDE0605F52F /* Pods-YLCalendar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLCalendar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLCalendar_Tests/Pods-YLCalendar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -487,10 +487,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YLCalendar/YLCalendar-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				INFOPLIST_FILE = "YLCalendar/YLCalendar-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -502,10 +504,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YLCalendar/YLCalendar-Prefix.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				INFOPLIST_FILE = "YLCalendar/YLCalendar-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
