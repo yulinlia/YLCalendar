@@ -30,8 +30,19 @@ Provide an infinite scrollable iOS calendar component
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'YLCalendar/**/*.{h,m}'
-  
+# s.source_files = 'YLCalendar/**/*.{h,m}'
+s.subspec 'Models' do |ss|
+ss = 'YLCalendar/**/Models/*.{h,m}'
+end
+
+s.subspec 'Views' do |ss|
+ss = 'YLCalendar/**/Views/*.{h,m}'
+end
+
+s.subspec 'Utils' do |ss|
+ss = 'YLCalendar/**/Utils/*.{h,m}'
+end
+
   # s.resource_bundles = {
   #   'YLCalendar' => ['YLCalendar/Assets/*.png']
   # }
